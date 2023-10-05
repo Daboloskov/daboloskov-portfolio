@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Portfolio of Designer Alexandre DAVID',
   description: 'I am Alexandre David, a pixel perfect oriented designer based in Paris. I am passionate about UX/UI, Product, Graphic, Technology, Management and Bitcoin.',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
 }
 
 export default function RootLayout({

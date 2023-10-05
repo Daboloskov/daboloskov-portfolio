@@ -67,7 +67,7 @@ export default function Intro() {
           delay: 0.4
       }}
       >
-        I'm Alexandre David, a designer and entrepreneur based in Paris.
+        I'm Alexandre DAVID, a designer and entrepreneur based in Paris.
         I'm passionate about UX/UI, Product Design, Graphic Design, Technology, Management and Bitcoin.
         I am an andragogue who likes to share my knowledge and skills.
       </motion.h1>

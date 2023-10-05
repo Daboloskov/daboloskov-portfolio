@@ -12,6 +12,8 @@ import { useSectionInView } from '@/lib/hooks';
 
 export default function Experience() {
     const { ref } = useSectionInView("Experience", 0.1)
+
+    const isSmScreen = window.innerWidth < 640
     
   return (
     <section
@@ -20,7 +22,7 @@ export default function Experience() {
         className="scroll-mt-28 mb-28 sm:mb-40"
     >
       <SectionHeading>Experience</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor="" animate={!isSmScreen}>
         {
             experiencesData.map((item, index) => (
                 <React.Fragment key={index}>
